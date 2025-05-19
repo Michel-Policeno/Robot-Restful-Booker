@@ -1,0 +1,28 @@
+# Diretório de ambiente virtual
+.venv/
+venv/
+ENV/
+env/
+*.pyc
+__pycache__/
+
+# Arquivos de saída dos testes Robot
+output/
+*.html
+*.xml
+*.log
+
+# Arquivos temporários e cache
+.DS_Store
+*.swp
+*.tmp
+*.bak
+Thumbs.db
+
+# Arquivos do VSCode
+.vscode/
+*.code-workspace
+
+# Outros arquivos desnecessários
+*.db
+*.sqlite
