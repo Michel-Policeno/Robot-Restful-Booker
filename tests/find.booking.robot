@@ -43,7 +43,7 @@ Cenário 8: Reserva por ID
     Buscar reservas por ID    ${ID}
     Status Should Be    200    ${response} 
 
-Cenário 8: Reserva por ID incorreto
+Cenário 9: Reserva por ID incorreto
     Buscar reservas por ID    999
     Status Should Be    404    ${response} 
 

@@ -23,7 +23,7 @@ Criar nova reserva com body inválido
     ...    totalprice=${totalprice}    
     ...    depositpaid=${depositpaid}    
     ...    additionalneeds=${additionalneeds}
-    ${response}=    POST  url=${HOST}/${BOOKING}    json=${body}    expected_status=500
+    ${response}=    POST  url=${HOST}/${BOOKING}    json=${body}    expected_status=any
     Set Suite Variable    ${response}     
       
 

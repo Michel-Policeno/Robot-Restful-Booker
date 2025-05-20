@@ -8,7 +8,6 @@ Fazer Login com sucesso
     ${body}=    Create Dictionary    username=${username}    password=${password}
     ${response}=     POST    ${HOST}/${AUTH_ENDPOINT}    data=${body}
     ${TOKEN}=    Get From Dictionary    ${response.json()}    token
-    Log    Token gerado: ${TOKEN}  
     Set Suite Variable    ${TOKEN}
 
 Fazer Login com dados errados

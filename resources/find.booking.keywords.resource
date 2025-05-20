@@ -21,7 +21,7 @@ Buscar reservas por checkout
 
 Buscar reservas por ID
     [Arguments]    ${ID}   
-    GET  url=${HOST}/${BOOKING}/${ID}
+    GET  url=${HOST}/${BOOKING}/${ID}    expected_status=any
    
          
 
