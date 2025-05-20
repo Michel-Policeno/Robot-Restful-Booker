@@ -1,7 +1,7 @@
 *** Settings ***
 Library    Collections
 Resource    ../resources/variables.resource
-Resource    ../resources/find.bookin.keywords.resource
+Resource    ../resources/find.booking.keywords.resource
 
 *** Test Cases ***
 Cenário 1: Retornar todas as reservas

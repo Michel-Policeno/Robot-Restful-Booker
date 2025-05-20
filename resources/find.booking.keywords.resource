@@ -22,12 +22,6 @@ Buscar reservas por checkout
 Buscar reservas por ID
     [Arguments]    ${ID}   
     GET  url=${HOST}/${BOOKING}/${ID}
-       
+   
          
 
-
-
-Fazer Login com Sucesso
-    [Arguments]    ${username}    ${password}
-    ${body}=    Create Dictionary    username=${username}    password=${password}
-    POST    booking    /${AUTH_ENDPOINT}    data=${body}
